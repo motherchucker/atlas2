@@ -1,0 +1,6 @@
+@media screen and (max-width: 921px) {
+  .smallscreen {
+    padding-right: 1.3vw !important;
+    padding-left: 1.3vw !important;
+  }
+}

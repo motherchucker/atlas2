@@ -1,0 +1,25 @@
+.content-main {
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar-col {
+  flex-grow: 0.04;
+}
+
+.col {
+  padding-right: 0.2vw;
+  padding-left: 0.2vw;
+}
+
+@media screen and (max-width: 921px) {
+  .content-main {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sidebar-col {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
