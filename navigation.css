@@ -1,0 +1,9 @@
+#bootstrap-overrides .navbar {
+  position: fixed;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+}

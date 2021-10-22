@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/atlas2/static/css/main.61c4d736.chunk.css",
+    "main.js": "/atlas2/static/js/main.c2476a5c.chunk.js",
+    "main.js.map": "/atlas2/static/js/main.c2476a5c.chunk.js.map",
+    "runtime-main.js": "/atlas2/static/js/runtime-main.e297ed56.js",
+    "runtime-main.js.map": "/atlas2/static/js/runtime-main.e297ed56.js.map",
+    "static/css/2.b319444a.chunk.css": "/atlas2/static/css/2.b319444a.chunk.css",
+    "static/js/2.6a635872.chunk.js": "/atlas2/static/js/2.6a635872.chunk.js",
+    "static/js/2.6a635872.chunk.js.map": "/atlas2/static/js/2.6a635872.chunk.js.map",
+    "index.html": "/atlas2/index.html",
+    "static/css/2.b319444a.chunk.css.map": "/atlas2/static/css/2.b319444a.chunk.css.map",
+    "static/css/main.61c4d736.chunk.css.map": "/atlas2/static/css/main.61c4d736.chunk.css.map",
+    "static/js/2.6a635872.chunk.js.LICENSE.txt": "/atlas2/static/js/2.6a635872.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e297ed56.js",
+    "static/css/2.b319444a.chunk.css",
+    "static/js/2.6a635872.chunk.js",
+    "static/css/main.61c4d736.chunk.css",
+    "static/js/main.c2476a5c.chunk.js"
+  ]
+}
