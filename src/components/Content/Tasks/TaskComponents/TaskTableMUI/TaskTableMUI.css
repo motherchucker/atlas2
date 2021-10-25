@@ -11,6 +11,10 @@
   margin-bottom: 0px;
 }
 
+.jss18 {
+  margin-bottom: 0px !important;
+}
+
 .MuiDataGrid-root .MuiDataGrid-columnHeader:focus,
 .MuiDataGrid-root .MuiDataGrid-cell:focus {
   outline: none !important;
