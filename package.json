@@ -2,7 +2,6 @@
   "name": "atlas",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://motherchucker.github.io/atlas2",
   "dependencies": {
     "@babel/core": "^7.15.5",
     "@devextreme/vdom": "1.2.2",

@@ -45,14 +45,16 @@
   /* margin-left: -350px; */
   margin-left: -175px;
   transition: 0.4s;
-  opacity: 0%;
+  /* opacity: 0%; */
+  opacity: 0;
 }
 
 .navbar.active {
   display: flex;
   margin-left: -27px;
   transition: 400ms;
-  opacity: 100%;
+  /* opacity: 100%; */
+  opacity: 1;
   z-index: 5;
 }
 
