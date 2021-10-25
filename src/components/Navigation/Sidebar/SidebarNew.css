@@ -47,6 +47,7 @@
   transition: 0.4s;
   /* opacity: 0%; */
   opacity: 0;
+  z-index: -1;
 }
 
 .navbar.active {
