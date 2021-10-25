@@ -11,8 +11,16 @@
   margin-bottom: 0px;
 }
 
-.MuiTablePagination-toolbar div p {
-  margin-bottom: 0px !important;
+.MuiTablePagination-spacer p {
+  margin-bottom: 0px;
+}
+
+.MuiTablePagination-displayedRows p {
+  margin-bottom: 0px;
+}
+
+.css-1wif0xq p {
+  margin-bottom: 0px;
 }
 
 .MuiDataGrid-root .MuiDataGrid-columnHeader:focus,
