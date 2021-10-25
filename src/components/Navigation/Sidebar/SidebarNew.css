@@ -21,7 +21,7 @@
   display: flex;
   /* margin-left: -100px; */
   transition: 400ms;
-  /* opacity: 0; */
+  opacity: 0;
 }
 
 /* .menu-arrow-open-active {
