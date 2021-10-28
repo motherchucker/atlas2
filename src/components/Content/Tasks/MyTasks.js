@@ -1,9 +1,8 @@
 import React, { useState, createRef } from "react";
-// import TaskDetail from "./TaskComponents/TaskDetail";
-// import TaskTableNew from "./TaskComponents/TaskTableNew";
+import TaskDetail from "./TaskComponents/TaskDetail";
+import TaskTableNew from "./TaskComponents/TaskTableNew";
 import TaskDetailMUI from "./TaskComponents/TaskTableMUI/TaskDetailMUI";
-// import TaskTableMUI from "./TaskComponents/TaskTableMUI/TaskTableMUI";
-import TaskTableMTable from "./TaskComponents/TaskTableMUITable/TaskTableMTable";
+import TaskTableMUI from "./TaskComponents/TaskTableMUI/TaskTableMUI";
 
 const MyTasks = () => {
   const [showTask, setShowTask] = useState(false);
@@ -33,21 +32,13 @@ const MyTasks = () => {
         onCloseTask={onCloseTask}
         divRef={divRef}
       />
-      <TaskTableMTable
+      <TaskTableMUI
         currentUser={currentUser}
         onSelectionChange={onSelectionChange}
         taskToRemove={taskToRemove}
         removeTask={removeTask}
         divRef={divRef}
       />
-      {/* MUI DATAGRID VERSION WORKS FINE */}
-      {/* <TaskTableMUI
-        currentUser={currentUser}
-        onSelectionChange={onSelectionChange}
-        taskToRemove={taskToRemove}
-        removeTask={removeTask}
-        divRef={divRef}
-      /> */}
       {/* <TaskDetail showTask={showTask} data={taskData} /> */}
       {/* <TaskTableNew
         currentUser={currentUser}
