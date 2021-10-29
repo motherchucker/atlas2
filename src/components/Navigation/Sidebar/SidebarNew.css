@@ -9,7 +9,7 @@
 
 .sidebar-nav {
   /* height: 100vh; */
-  height: calc(100vh - 88px);
+  height: calc(100vh - 80px);
   padding-top: 5px;
   top: 5rem;
   left: 0;
