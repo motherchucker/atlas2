@@ -9,7 +9,7 @@
 
 .sidebar-nav {
   /* height: 100vh; */
-  height: calc(100vh - 80px);
+  height: calc(100vh - 76px);
   padding-top: 5px;
   top: 5rem;
   left: 0;
@@ -66,7 +66,7 @@
   width: 220px;
   padding-right: 12px;
   display: flex;
-  height: 100vh;
+  height: calc(100vh - 76px);
   background: white;
   z-index: 1;
 }
@@ -76,7 +76,7 @@
   width: 220px;
   padding-right: 12px;
   display: flex;
-  height: 100vh;
+  height: calc(100vh - 76px);
   box-shadow: 1px 0 10px -2px rgb(199, 199, 199);
   z-index: 100;
 }
