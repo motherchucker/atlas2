@@ -285,7 +285,7 @@ const TaskTableMTable = ({
     }
 
     onSelectionChange(showTasks, selectedRow);
-  }, [selectedRow, onSelectionChange, removeTask, taskToRemove]);
+  }, [selectedRow, onSelectionChange, removeTask, taskToRemove, selected]);
 
   const scrollTo = () => {
     window.scrollTo({
@@ -338,7 +338,7 @@ const TaskTableMTable = ({
   };
 
   const handleRowClick = (event, row) => {
-    console.log("Row click");
+    // console.log("Row click");
 
     let selectedRow = row;
     let rowId = [];
