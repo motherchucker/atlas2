@@ -328,7 +328,13 @@ const TaskTableMTable = ({
     }
     setSelected(newSelected);
 
-    console.log("Checkbox click");
+    if (selectedIndex >= 0) {
+      console.log("Deleted row");
+      if (selectedRow.id === row.id) {
+        setSelectedRow([]);
+      }
+    }
+    // console.log("Checkbox click");
   };
 
   const handleRowClick = (event, row) => {
