@@ -21,12 +21,15 @@ const Sidebar = () => {
   return (
     <Fragment>
       <div className="sidebar">
-        <div className={sidebar ? "sidebar-nav active" : "sidebar-nav"}>
+        <div
+          className={sidebar ? "sidebar-nav active" : "sidebar-nav"}
+          onClick={showSidebar}
+        >
           <NavLink
             to={`${location.pathname}`}
             className={sidebar ? "menu-arrow-open active" : "menu-arrow-open"}
           >
-            <IoIosArrowForward onClick={showSidebar} />
+            <IoIosArrowForward />
           </NavLink>
         </div>
 
@@ -39,7 +42,10 @@ const Sidebar = () => {
                     to={window.location.pathname}
                     className="menu-arrow-close"
                   >
-                    <IoIosArrowBack onClick={showSidebar} />
+                    <IoIosArrowBack
+                      onClick={showSidebar}
+                      className="menu-arrow-close-click"
+                    />
                   </NavLink>
                 </li>
                 <li>
